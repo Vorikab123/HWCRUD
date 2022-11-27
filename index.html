@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+  </head>
+  <body>
+    <div id="book">
+      <input type="text" id="inpName" />
+      <input type="text" id="inpSur" />
+      <input type="text" id="inpTel" />
+      <input type="text" id="inpImg" />
+      <button id="btn-add">Save</button>
+    </div>
+    <div id="list"></div>
+
+    <!-- Modal start -->
+    <div id="modal-edit">
+      <div id="modal-edit-body">
+        <button id="modal-edit-close">Close</button>
+
+        <div id="modal-edit-inps">
+          <input type="text" id="inp-edit-first-name" placeholder="Firstname" />
+          <input type="text" id="inp-edit-last-name" placeholder="Lastname" />
+          <input type="text" id="inp-edit-phone" placeholder="Phone" />
+          <input type="text" id="inp-edit-image" placeholder="Url" />
+          <br />
+          <button id="btn-save-edit">Save</button>
+        </div>
+      </div>
+    </div>
+    <!-- Modal end -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
